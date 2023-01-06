@@ -17,6 +17,6 @@ Abstract class Animal
     {
         return self::getNoise();
     }
-    
+
 
 }
