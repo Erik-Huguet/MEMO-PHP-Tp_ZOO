@@ -2,7 +2,7 @@
   "require": {
     "monolog/monolog": "3.2.0"
   },
-  "name": "votre-nom/zoo",
+  "name": "erik/zoo",
   "autoload": {
     "psr-4": {
       "App\\":"src"
