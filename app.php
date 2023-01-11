@@ -1,14 +1,54 @@
 <?php
 namespace App;
 
+use App\Animals\BubbleFish;
+use App\Animals\CatFish;
+use App\Animals\ClownFish;
+use App\Animals\Elephant;
+use App\Animals\Fish;
+use function var_dump;
+
 require __DIR__ . '/vendor/autoload.php';
-use App\Fish;
+
 
 
 $fish1 = new Fish('bubble');
 
-echo $fish1->getNoises();
+echo $fish1->noise();
 
 $fishCat = new CatFish('glubule');
 
-echo "Je m\'appelle ". $fishCat->getName() .", ".  $fishCat->getNoises();
+echo "Je m'appelle ". $fishCat->getName() .", ".  $fishCat->noise();
+
+$clownFish = new ClownFish('lolFish');
+
+echo $clownFish->noise();
+
+$elephant1 = new Elephant('dumbo');
+
+echo $elephant1->noise();
+
+$animals = [];
+
+    for($i = 0; $i < 5 ; $i++){
+        $animals[] = new Fish('glubule');
+    };
+    for($i = 0; $i < 3 ; $i++){
+       $animals[] = new BubbleFish('Blubule');
+    };
+    for($i = 0; $i < 1 ; $i++){
+        $animals[] = new ClownFish('lolbule');
+    };
+    for($i = 0; $i < 2 ; $i++){
+        $animals[] = new CatFish('miaoubule');
+    };
+    for($i = 0; $i < 3 ; $i++){
+        $animals[] = new Elephant('Dumbo');
+    };
+
+
+var_dump($animals);
+ foreach($animals as $animal){
+     echo $animal->noise();
+
+ }

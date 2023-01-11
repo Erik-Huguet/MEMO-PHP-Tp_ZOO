@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Animals;
 
 class ClownFish extends Animal
 {

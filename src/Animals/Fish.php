@@ -1,5 +1,5 @@
 <?php
-namespace App;
+namespace App\Animals;
 
     class Fish extends Animal
     {
