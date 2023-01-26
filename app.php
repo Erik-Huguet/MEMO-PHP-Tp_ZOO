@@ -31,19 +31,19 @@ echo $elephant1->noise();
 $animals = [];
 
     for($i = 0; $i < 5 ; $i++){
-        $animals[] = new Fish('glubule');
+        $animals[] = new Fish("fish $i");
     };
     for($i = 0; $i < 3 ; $i++){
-       $animals[] = new BubbleFish('Blubule');
+       $animals[] = new BubbleFish("bubbleFish $i");
     };
     for($i = 0; $i < 1 ; $i++){
-        $animals[] = new ClownFish('lolbule');
+        $animals[] = new ClownFish("clownFish $i");
     };
     for($i = 0; $i < 2 ; $i++){
-        $animals[] = new CatFish('miaoubule');
+        $animals[] = new CatFish("catFish $i");
     };
     for($i = 0; $i < 3 ; $i++){
-        $animals[] = new Elephant('Dumbo');
+        $animals[] = new Elephant("elephant $i");
     };
 
 
