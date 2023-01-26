@@ -6,6 +6,7 @@ use App\Animals\CatFish;
 use App\Animals\ClownFish;
 use App\Animals\Elephant;
 use App\Animals\Fish;
+use App\Animals\Perroquet;
 use function var_dump;
 
 require __DIR__ . '/vendor/autoload.php';
@@ -44,6 +45,9 @@ $animals = [];
     };
     for($i = 0; $i < 3 ; $i++){
         $animals[] = new Elephant("elephant $i");
+    };
+    for($i = 0; $i < 3 ; $i++){
+        $animals[] = new Perroquet("perroquet $i");
     };
 
 
