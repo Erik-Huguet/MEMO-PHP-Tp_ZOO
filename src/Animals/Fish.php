@@ -10,7 +10,7 @@ namespace App\Animals;
 
         public function getNoises(): string
         {
-            return  "bloubloublou \n\r";
+            return  "$this :bloubloublou \n\r";
 
         }
 

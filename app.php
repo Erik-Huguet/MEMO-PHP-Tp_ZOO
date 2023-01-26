@@ -47,7 +47,7 @@ $animals = [];
     };
 
 
-var_dump($animals);
+//var_dump($animals);
  foreach($animals as $animal){
      echo $animal->noise();
 

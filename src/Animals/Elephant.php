@@ -11,6 +11,7 @@ class Elephant extends Animal
 
     public function getNoises(): string
     {
-        return "tttrrrouuu".PHP_EOL;
+        return "$this :tttrrrouuu".PHP_EOL;
     }
+
 }

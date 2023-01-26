@@ -26,6 +26,10 @@ Abstract class Animal
         return $this->getNoises();
     }
 
+    public function __toString(){
+        return $this->name;
+    }
+
 
 
 

@@ -10,6 +10,6 @@ namespace App\Animals;
 
         public function getNoises(): string
         {
-            return "Bloubloublou,Glouglouglou".PHP_EOL;
+            return "$this :Bloubloublou,Glouglouglou".PHP_EOL;
         }
     }

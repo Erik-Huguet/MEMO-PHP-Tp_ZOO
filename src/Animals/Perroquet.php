@@ -11,6 +11,7 @@ class Perroquet extends Animal
 
     public function getNoises(): string
     {
-        return "coco".PHP_EOL;
+        return "$this :coco".PHP_EOL;
     }
+
 }
